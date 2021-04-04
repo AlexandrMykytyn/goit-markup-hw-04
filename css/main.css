@@ -119,8 +119,13 @@ a {
   align-items: center;
 }
 
-.menu-link:focus .icons,
-.menu-link:hover .icons {
+.link-mail:hover .icons,
+.link-mail:focus .icons {
+  fill: #2196f3;
+}
+
+.link-tel:focus .icons,
+.link-tel:hover .icons {
   fill: #2196f3;
 }
 
@@ -190,10 +195,11 @@ a {
 
 .hero {
   background-image: linear-gradient(90deg, rgba(47, 48, 58, 0.4) 50%, rgba(47, 48, 58, 0.4) 50%),
-    url(../images/hero-img/img-1.jpg);
+    url(../images/hero-img/hero-img.jpg);
   background-repeat: no-repeat;
-  background-color: #2f303a;
   background-size: cover;
+  background-color: #2f303a;
+
   background-position: left, top;
   max-width: 1600px;
   margin-left: auto;
@@ -367,6 +373,10 @@ a {
 
 .section-item:nth-child(4n) {
   margin-right: 0;
+}
+
+.section-content {
+  background-color: #ffffff;
 }
 
 .section-team {

@@ -126,9 +126,14 @@ a {
   align-items: center;
 }
 
-.menu-link:focus .icons,
-.menu-link:hover .icons {
-  fill: var(--accent-color);
+.link-mail:hover .icons,
+.link-mail:focus .icons {
+  fill: #2196f3;
+}
+
+.link-tel:focus .icons,
+.link-tel:hover .icons {
+  fill: #2196f3;
 }
 
 .menu-link .icons {
@@ -196,6 +201,14 @@ a {
 
 .list-button {
   display: inline-block;
+}
+
+.menu-button {
+  display: flex;
+}
+
+.list-button:not(:last-child) {
+  margin-right: 8px;
 }
 
 .button-primary {
